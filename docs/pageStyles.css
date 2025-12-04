@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, sans-serif;
 	background: linear-gradient(135deg, #3f9dd4 0%, #105b87 100%);
 	min-height: 100vh;
@@ -124,4 +124,29 @@ body {
 	.imageContainer {
 		height: 200px;
 	}
+}
+
+.sourceContainer {
+	background: #f8fafc;
+	border-left: 4px solid #3f9dd4;
+	padding: 25px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	transition: transform 0.2s ease;
+}
+
+.sourceContainer:hover {
+	transform: translateX(5px);
+	background: #f0f7ff;
+}
+
+.sourceContainer h3 {
+	color: #105b87;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
+
+.sourceContainer p {
+	color: #555;
+	line-height: 1.6;
 }
